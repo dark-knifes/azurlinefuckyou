@@ -29,7 +29,7 @@ chmod +x apkeep
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
     # 渠道服全都不是直链,不知道怎么搞了
-    url="/dl/appdl/application/apk/7e/7e70bd9184a643ddaa4fc6cb9403817c/com.bilibili.blhx.huawei.2211101822.apk"
+    url="https://appdl6-drcn.dbankcdn.cn/dl/appdl/application/apk/7e/7e70bd9184a643ddaa4fc6cb9403817c/com.bilibili.blhx.huawei.2211101822.apk"
     # 使用wget命令下载apk文件
     wget -out AzurLane.apk $url
     fi
